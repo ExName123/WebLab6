@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: gainsboro;
+    margin-top: 95px;
+}
+
+header {
+    border-bottom: 2px solid bisque;
+    height: 90px;
+    top: 0;
+    display: block;
+    position: fixed;
+    background-color: rgb(169, 111, 109);
+    width: 100%;
+}
+
+.listHeader {
+    margin-top: 10px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header div {
+    height: 2.5em;
+    width: 100%;
+}
+
+#title,
+.listHeader {
+    color: antiquewhite;
+}
+
+#title {
+    text-decoration: overline;
+    font-size: 20px;
+    padding-top: 6px;
+    margin-left: 10px;
+    text-align: left;
+}
+
+.listHeader li {
+    display: inline;
+    margin-left: 4em;
+}
+
+.listHeader li a {
+    transition: color 0.3s;
+    text-decoration: none;
+}
+
+.listHeader li a:visited {
+    color: bisque;
+}
+
+.currentPage {
+    color: darkgray;
+    background-color: lightslategrey;
+}
+
+.listHeader li a:hover {
+    color: midnightblue;
+    background-color: antiquewhite;
+}
+
+.divMainForm {
+    font-size: 20px;
+    color: bisque;
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    border-radius: 8px;
+    width: 60px;
+    height: 25px;
+    align-items: center;
+    text-align: center;
+}
+
+.left-label {
+    flex: 1;
+    text-align: left;
+}
+
+.right-label {
+    flex: 1;
+    text-align: right;
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.container {
+    background-color: rgb(169, 111, 109);
+    width: 35%;
+    margin: 0 auto;
+    margin-bottom: 2em;
+    border: 2px solid lightslategrey;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+button {
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    width: 50%;
+    padding: 8px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
